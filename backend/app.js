@@ -9,7 +9,7 @@ const userRoutes = require('./routes/user')
 
 
 // Connection mongoDB
-mongoose.connect('mongodb+srv://Noxatris:Escalibure0025@cluster0.z0u4r.mongodb.net/Projet6_Openclassrooms?retryWrites=true&w=majority',
+mongoose.connect('',
   { useNewUrlParser: true,
     useUnifiedTopology: true })
   .then(() => console.log('Connexion à MongoDB réussie !'))
